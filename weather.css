@@ -339,15 +339,18 @@ h5{
   #c1,
   #c2,
   #c3{
-      font-size: 12px;
+      font-size: 15px;
       margin-top: -45px;
   }
+#c4,#c5{
+  font-size: 15px;
 
+}
   #pre,
   #hum,
   #spe,
   #vis,
   #sea {
-      font-size: 12px;
+      font-size: 16px;
   }
 }
