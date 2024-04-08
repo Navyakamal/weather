@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    background-image: url("./images/wea13.jpg");
+    background-size: cover;
+  
+}
+#cont1{
+        height: 350px;
+        margin-top: 135px;
+        background-image: url("./images/wea18.jpg");
+        background-size: cover;
+      }
+#cont2{
+  background-color: rgba(255, 255, 255, 0.311);
+}
+#cname{
+    margin-left: 850px;
+    background-color: rgba(128, 128, 128, 0.148);
+    width: 220px;
+    color: white;
+    font-size: 20px;
+  outline: none;
+}
+.icon{
+  height: 80px;
+  width: 80px;
+  margin-left: -15px;
+}
+#b1{
+    margin-top: -60px;
+    margin-left: 1025px;
+    border: none;
+    font-size: 18px;
+}
+#h1{
+    margin-left: 450px;
+    font-size: 40px;
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#ciname{
+    font-size: 40px;
+    color: white;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  font-style: normal;
+
+}
+#h3{
+    margin-top: 10px;
+    margin-left: 455px;
+    font-size: 30px;
+    color: white;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  font-style: normal;
+}
+#temp{
+    font-size: 50px;
+    color: white;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+#de,#max,#feels{
+    font-size: 25px;
+    color: white;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+#box1{
+    margin-top: 10px;
+    height: 135px;
+    /* background-color: rgba(0, 0, 0, 0.208);
+    border-radius: 15px; */
+    margin-left: 10px;
+}
+#box2{
+  margin-top: 10px;
+  height: 135px;
+  /* background-color: rgba(0, 0, 0, 0.436);
+  border-radius: 15px; */
+  margin-left: 25px;
+  width: 690px;
+}
+img{
+  height: 150px;
+  width: 170px;
+  margin-left: -37px;
+  margin-top: -12px;
+}
+#rise,#set{
+  color: black;
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 18px;
+  margin-left: 13px;
+  margin-top: 30px;
+}
+#i3,#i4{
+  color: black;
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 20px;
+  margin-left: 5px;
+  margin-top: 10px;
+}
+#c1,#c2,#c3,#c4,#c5{
+  color: black;
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 10px;
+}
+#pre,#hum,#spe,#vis,#sea{
+  color: black;
+}
+
+@media (max-width: 992px) {
+  #cname {
+      margin-left: 0;
+      width: 100%;
+      margin-bottom: 10px;
+  }
+
+  #b1 {
+      margin-left: -30px;
+  }
+
+  #h1,
+  #h3 {
+      margin-left: 0;
+      text-align: center;
+  }
+
+  #temp {
+      font-size: 30px;
+      text-align: center;
+  }
+
+  #de,
+  #max,
+  #feels {
+      font-size: 20px;
+      text-align: center;
+  }
+  #b1{
+    margin-left: 160px;
+    margin-top: -77px;
+  }
+#box1{
+  margin-left: 230px;
+}
+  #rise {
+      font-size: 16px;
+      text-align: center;
+      margin-left: -10px;
+  }
+  #set{
+    font-size: 16px;
+    text-align: center;
+    margin-left: 0px;
+
+  }
+  img{
+    margin-left: -50px;
+  }
+
+  #i3,
+  #i4 {
+      font-size: 13px;
+      text-align: center;
+      margin-left: -10px;
+  }
+
+  #c1,
+  #c2,
+  #c3,
+  #c4,
+  #c5 {
+      font-size: 20px;
+      text-align: center;
+  }
+
+  #pre,
+  #hum,
+  #spe,
+  #vis,
+  #sea {
+      font-size: 18px;
+      text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  #temp {
+      font-size: 40px;
+  }
+
+  #de,
+  #max,
+  #feels {
+      font-size: 25px;
+  }
+
+  #h1,
+  #h3 {
+      font-size: 30px;
+  }
+
+  #rise,
+  #set {
+      font-size: 18px;
+  }
+
+  #i3,
+  #i4 {
+      font-size: 20px;
+  }
+
+  #c1,
+  #c2,
+  #c3,
+  #c4,
+  #c5 {
+      font-size: 30px;
+  }
+
+  #pre,
+  #hum,
+  #spe,
+  #vis,
+  #sea {
+      font-size: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  body {
+      background-size: cover;
+  }
+
+  #cont1 {
+      margin-top: 80px;
+      background-size: cover;
+  }
+
+  #cname {
+      font-size: 16px;
+      margin-left: 5px;
+      margin-top: -9px;
+  }
+#ciname{
+  font-size: 20px;
+}
+#date{
+  font-size: 15px;
+  margin-left: 10px;
+}
+  #b1 {
+      margin-left: 175px;
+      margin-top: -72px;
+  }
+  #r1{
+    margin-top: 63px;
+    margin-left: -6px;
+  
+  }
+  #r2{
+    margin-top: -270px;
+    margin-left: -77px;
+  }
+  #h1,
+  #h3 {
+      font-size: 20px;
+  }
+
+  #temp {
+      font-size: 30px;
+      margin-left: 10px;
+  }
+
+  #de,
+  #max,
+  #feels {
+      font-size: 18px;
+  }
+
+  #rise{
+    font-size: 14px;
+    margin-left: -10px;
+  }
+ #box1{
+  margin-left: 10px;
+ }
+  #box2{
+    margin-left: 0px;
+  }
+  #set {
+      font-size: 14px;
+      margin-left: -14px;
+
+  }
+
+  #i3
+   {
+      font-size: 12px;
+      margin-left: -16px;
+  }
+  #i4{
+    font-size: 12px;
+    margin-left: -21px;
+
+  }
+  img{
+    margin-left: -19px;
+    height: 114px;
+    width: 113px;
+  }
+h5{
+  margin-top: -20px;
+}
+  #c1,
+  #c2,
+  #c3{
+      font-size: 12px;
+      margin-top: -45px;
+  }
+
+  #pre,
+  #hum,
+  #spe,
+  #vis,
+  #sea {
+      font-size: 12px;
+  }
+}
